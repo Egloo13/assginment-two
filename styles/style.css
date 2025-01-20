@@ -43,14 +43,7 @@ body {
     background-color: Orange;
     cursor: pointer;
  }
- .hamburger {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 35px;
-    height: 25px;
-    cursor: pointer;
- }
+ 
  .line {
     background-color: #000000;
     height: 4px;
