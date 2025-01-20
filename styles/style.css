@@ -44,12 +44,12 @@ body {
     cursor: pointer;
  }
  
- .line {
+ .burger {
     background-color: #000000;
     height: 4px;
     width: 100%;
     border-radius: 5px;
   }
- hr {
-    color: orange;
+  hr {
+    background-color:gold;
  }
