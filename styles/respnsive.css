@@ -1,0 +1,20 @@
+@media screen and (max-width: 576px) {
+    .desktop-only {
+        display: none;
+    }
+    .mobile-only {
+        display: block;
+    }
+    body {
+        margin: 0;
+        padding: 0px;      
+       }
+
+    .header {
+     background-color: red;
+     padding: 20px 20px;
+    }
+    .hamburger {
+        display: flex;
+    }
+}

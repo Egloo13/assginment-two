@@ -1,0 +1,91 @@
+/* font-size style */
+.fs-16 {
+    font-size: 1rem;
+ }
+ .fs-20 {
+    font-size: 1.25rem;
+ }
+ .fs-24 {
+    font-size: 1.5rem;
+ }
+ .fs-26 {
+    font-size: 1.63rem;
+ }
+ .fs-32 {
+    font-size: 2rem;
+ }
+ .fs-42 {
+    font-size: 2.63rem;
+ }
+ .fs-46 {
+    font-size: 2.88rem;
+ }
+ /* font-weight style */
+ .fw-b {
+    font-weight: bold;
+ }
+ .fw-sb {
+    font-weight: semibold;
+ }
+ .fw-m {
+    font-weight: medium;
+ }
+ .fw-rg {
+    font-weight: regular;
+ }
+ /* font-color style */
+ .orange {
+    color: orange;
+ }
+ .sky-blue {
+    color: skyblue;
+ }
+ .gr-blue {
+    color: #05D4DF;
+ }
+ .halka-blue {
+    color: #5D58EF;
+ }
+ .halka-blue1 {
+    color: #64C8FF;
+ }
+ .halka-orange { 
+    color: #F0AA00;
+ }
+ .halka-beguni { 
+    color: #8700FF;
+ }
+ .halka-ash { 
+    color: #808080;
+ }
+ .halka-ash2 { 
+    color: #666666;
+ }
+ /* background-color style */
+ .bg-orange {
+    background-color: orange;
+ }
+ .bg-sky-blue {
+    background-color: skyblue;
+ }
+ .bg-black {
+    background-color: #000000;
+ }
+ .bg-halka-blue {
+    background-color: #3CD8E8;
+ }
+ .bg-olive {
+    background-color: #95B226;
+ }
+ .bg-d-blue { 
+    background-color: #5D58F0;
+ }
+ .bg-halka-beguni { 
+    background-color: #8700FF;
+ }
+ .bg-halka-ash { 
+    background-color: #808080;
+ }
+
+ 
+
