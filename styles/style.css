@@ -50,9 +50,7 @@ body {
     width: 100%;
     border-radius: 5px;
   }
-  hr {
-    background-color:gold;
- }
+  
  /* Banner styles */
  .banner {
    padding: 0 140px 80px 140px;
@@ -99,7 +97,7 @@ body {
  }
 
  .box-bg1 {
-   background: linear-gradient(to bottom,#e2fafd 20%, #ffffff 80%);
+   background: linear-gradient(to bottom, #e2fafd 20%, #ffffff 80%);
  }
  .box-bg2 {
    background: linear-gradient(to bottom, #FFF4DC 20%, #ffffff 80%);
@@ -200,7 +198,7 @@ body {
  .btn-date1 {
    position: relative;
    top: -325px;
-   left: -25%;
+   left: -30%;
  }
  .btn-date {
    position: relative;
@@ -212,6 +210,27 @@ body {
    top: -110px;
    left: 20px;
  }
+
+ /* Footer styles */
+ .footer {
+   padding: 80px 140px 80px 140px;
+   background-color: #01ACFD;
+   color: white;
+   justify-content: space-between;
+  
+ }
+ .short {
+   gap: 15px;
+ }
+
+ .about>ul>li, .footer-logo>.short,
+  .about-title, .toutch>h3 {
+   padding-bottom: 20px;
+ }
+ .about>ul>li {
+   list-style: none;
+ }
+ /* Responsive styles */
  
  
  

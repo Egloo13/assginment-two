@@ -27,6 +27,9 @@
         height: 25px;
         cursor: pointer;
     }
+    #hr-line {
+        background-color: orange !important;
+    }
     .banner {
         padding: 20px 10px;
     }
@@ -36,6 +39,9 @@
         text-align: center;
         gap: 20px;
     }
+    .btn-contact {
+        padding: 6px 24px; 
+     }
     img {
         max-width: 100%;
         height: auto;
@@ -52,11 +58,15 @@
         flex-direction: column;
         justify-content: center;
         align-items: center; 
+        padding-top: 30px;
     }
     .stories {
         flex-direction: column;
         padding: 20px 0px;
     } 
+    .story-title {
+        padding: 20px 0;
+    }
     .story-container {
         width: 100%;
         padding: 20px 10px;
@@ -80,5 +90,18 @@
         position: relative;
         top: -90px;
         left: 20px;
+      }
+      /* Footer styles */
+      .footer {
+        flex-direction: column;
+        align-items: left;
+        text-align: left;
+        padding: 65px 10px;
+      }
+      .footer-logo {
+        padding-bottom: 20px;
+      }
+      .ft-img {
+        display: flex;
       }
 }
