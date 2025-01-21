@@ -9,8 +9,11 @@ body {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
 }
+.tab-only-d {
+  display: none;
+}
 .mobile-only {
-    display: none;
+  display: none;
 }
  /* Sheared styles */
  .dis-flex {
@@ -26,7 +29,7 @@ body {
  
 /* Header styles */
  .header {
-     padding: 20px 140px 80px 140px;
+     padding: 20px 140px 40px 140px;
     justify-content: space-between;
     align-items: center;
    
@@ -35,6 +38,9 @@ body {
     justify-content: center;
     list-style-type: none;
     gap: 32px;
+ }
+ .option>li>a {
+  text-decoration: none;
  }
  .btn-contact {
     padding: 10px 60.5px;
@@ -50,6 +56,30 @@ body {
     width: 100%;
     border-radius: 5px;
   }
+  .glow {
+    background-color: tomato; 
+    height: 50px;            
+    width: 100%;             
+    color: black;           
+    font-size: 20px;        
+    font-weight: bold;     
+    text-align: center;      
+    line-height: 50px;       
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff4d4d; 
+  }
+  .kid {
+    background-color:rgb(232, 248, 7);
+    color: blue;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  .enroll {
+    background-color:rgb(123, 251, 130);
+    color:rgb(45, 11, 2);
+    padding: 50px 20px;
+  }
+  
   
  /* Banner styles */
  .banner {
@@ -94,6 +124,9 @@ body {
    text-align: center; 
    gap: 30px;
    border-radius: 19px;
+ }
+ .card-box>a {
+   text-decoration: none;
  }
 
  .box-bg1 {
@@ -219,6 +252,7 @@ body {
    justify-content: space-between;
   
  }
+ 
  .short {
    gap: 15px;
  }
@@ -230,7 +264,29 @@ body {
  .about>ul>li {
    list-style: none;
  }
- /* Responsive styles */
+ .about>ul>li>a {
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .all-btn1:hover {
+    background-color:rgb(179, 124, 251);
+    color: black;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 5px 5px;
+  }
+  .all-btn:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  .all-btn3:hover {
+    background-color:rgb(1, 29, 28);
+    color: #ffffff;
+  }
+ 
+ 
  
  
  
